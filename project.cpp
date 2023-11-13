@@ -1,4 +1,27 @@
 #include <iostream>
+
+
+
+
+
+
+
+
+
+bool ktSHT (int num){
+    int sum =1;
+    if (int i=2;i<=sqrt(num);i++){
+        if(num%i==0){
+            sum +=i;
+            if(i!=num/i){
+                sum += num /i;
+            }
+        }
+    }
+    return sum;
+}
+
+
 using namespace std;
 bool ktraSCP (int num){
     int sqrtNum = sqrt(num);
@@ -10,10 +33,5 @@ int main (){
     cout<<"Nhap n";
     cin>>n;
 
-    if(ktraSCP(number1)){
-        cout<<"Day la so chinh phuong";
-    }else{
-        cout<<"Day kh phai";
-    }
 
 }
