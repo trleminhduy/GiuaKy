@@ -23,21 +23,15 @@ bool ktSHT (int num){
 
 
 using namespace std;
+bool ktraSCP (int num){
+    int sqrtNum = sqrt(num);
+    return sqrtNum *sqrtNum==num;
+}
+
 int main (){
     int n;
     cout<<"Nhap n";
     cin>>n;
 
 
-
-
-
-int number2 =30;
-if(ktSHT(number2)){
-    cout<<"Day la so hoan thien";
-}else{
-    cout<<"day kg phai so hoan thien";
-}
-
-    
 }
